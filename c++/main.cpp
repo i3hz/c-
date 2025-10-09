@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-    cout << "C++ on WSL is working!" << endl;
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
     return 0;
 }
